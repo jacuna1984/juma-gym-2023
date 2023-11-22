@@ -1,0 +1,1 @@
+Buscar persona el metodo solo debe devolver el tipo de persona y el ID

@@ -1,0 +1,243 @@
+
+
+/*Nav-Var*/
+
+.nav-bar{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	float: left;
+}
+
+.nav-item{
+	color: rgb(226, 197, 30);
+}
+
+.nav-link{
+	color: rgb(226, 197, 30);
+	font-size: x-large;
+	font-weight: bolder;
+	/* -webkit-text-stroke: 0.5px #000; */
+}
+
+/*fin de nav-var*/
+
+
+/*img-login*/
+
+.img-login{
+	position: absolute;
+	left: 10%;
+	top: 15%;
+	width: 35%;
+	text-align: center;
+}
+
+/*fin img-login*/
+
+/*Login*/
+
+.asistencia-box {
+	width: 320px;
+	height: 320px;
+	/* background: rgba(151, 151, 240, 0.05); */
+	background: rgba(255, 255, 255, 0.132);
+	color: rgb(226, 197, 30);
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(20%, -40%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 20px;
+}
+
+.asistencia-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.asistencia-box h1 {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.asistencia-box label {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.asistencia-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.asistencia-box input[type="text"], .asistencia-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	cursor: text;
+}
+
+.asistencia-box input[type="submit"] {
+	margin: auto;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.asistencia-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #0094FE;
+	color: #000;
+}
+
+.asistencia-box a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+	align-items: center;
+}
+
+.asistencia-box a:hover {
+	color: #fff;
+}
+
+#btn-contraseña{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	object-position: center;
+}
+
+/*fin login*/
+
+/*index-fondojuma*/
+
+.fondo-juma{
+	position: absolute;
+	left: -30%;
+	top: 16%;
+	width: 35%;
+	transform: translate(120%, 0);
+}
+
+.fondo-juma1{
+	position: absolute;
+	left: 10%;
+	top: 16%;
+	width: 35%;
+	transform: translate(120%, 0);
+}
+
+/*Login*/
+
+.login-box {
+	width: 320px;
+	height: 435px;
+	background: rgba(128, 139, 150, 0.5);
+	color: rgb(rgba(5,11,49,255));
+	font-weight: bolder;
+	top: 55%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-150%, -35%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+	border-radius: 20px;
+}
+
+.login-box .avatar {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute;
+	top: -50px;
+	left: calc(50% - 50px);
+}
+
+.login-box h1 {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0 0 20px;
+	text-align: center;
+	font-size: 22px;
+}
+
+.login-box label {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	display: block;
+}
+
+.login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	cursor: text;
+}
+
+.login-box input[type="submit"] {
+	margin: auto;
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #b80f22;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #0094FE;
+	color: #000;
+}
+
+.login-box a {
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+	align-items: center;
+}
+
+.login-box a:hover {
+	color: #fff;
+}
+
+#btn-contraseña{
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	object-position: center;
+}
+
+/*fin login*/
+
+
+

@@ -1,0 +1,12 @@
+// en el select solo debes obtener el id del cliente o personal
+// una vez lo tenemos con ese id hacer un select de la tabla asistencias_clientes 
+// o asitencias_personal buscando registros que tengan ese id y la fecha se igual a hoy
+// select * from asistencias_clientes where date(fecha) = curdate() and cliente id = $_session['cliente_id'];
+// y si esto trae un resultado no hacemos insert
+
+
+
+
+domingo 8-10
+*armar metodo para registro de selecion de turno (mañana, tarde, noche),
+dependiendo de la hora de asistencia que 
